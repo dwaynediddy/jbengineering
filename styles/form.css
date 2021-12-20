@@ -28,6 +28,7 @@ input {
     background-color: red;
     border-radius: 4px;
     height: 40px;
+    cursor: pointer;
 }
 
 .formSubmitButton:hover {
