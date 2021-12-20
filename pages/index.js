@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
+import FileShare from './FileShare'
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -16,6 +18,7 @@ export default function Home() {
           Welcome to <a href="https://www.linkedin.com/in/joshua-burkin/">Milkys biness</a>
         </h1>
       </main>
+      <FileShare />
 
       <footer className={styles.footer}>
         <a

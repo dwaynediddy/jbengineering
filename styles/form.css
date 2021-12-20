@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container .contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+input { 
+    padding: 5px 25px;
+}
+
+.formMessageArea {
+    padding: 55px
+}
+
+.formFileSubmitter {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.formSubmitButton {
+    background-color: red;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.formSubmitButton:hover {
+    background-color: blue;
+}
